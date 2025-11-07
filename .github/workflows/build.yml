@@ -1,0 +1,61 @@
+name: Build and Test
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        dotnet-version: ['8.0.x']
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: ${{ matrix.dotnet-version }}
+    
+    - name: Restore dependencies
+      run: dotnet restore Synapse.Framework.sln
+    
+    - name: Build
+      run: dotnet build Synapse.Framework.sln --configuration Release --no-restore
+    
+    - name: Test
+      run: dotnet test Synapse.Framework.sln --configuration Release --no-build --verbosity normal
+    
+    - name: Upload build artifacts
+      if: matrix.os == 'ubuntu-latest'
+      uses: actions/upload-artifact@v3
+      with:
+        name: build-artifacts
+        path: |
+          **/bin/Release/**/*.dll
+          **/bin/Release/**/*.pdb
+
+  code-quality:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
+    
+    - name: Restore dependencies
+      run: dotnet restore Synapse.Framework.sln
+    
+    - name: Build
+      run: dotnet build Synapse.Framework.sln --configuration Release
+    
+    - name: Run code analysis
+      run: dotnet format --verify-no-changes --verbosity diagnostic
+      continue-on-error: true
